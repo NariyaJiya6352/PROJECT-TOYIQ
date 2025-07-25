@@ -1,0 +1,140 @@
+ .background-img {
+      position: relative;
+    }
+
+    .overlay-images {
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    .overlay-images img {
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .google-content{
+     background-color: rgb(179, 139, 212);
+    }
+
+      .google-content1{
+     background-color: rgb(146, 203, 232);
+    }
+
+      .google-content2{
+     background-color: rgb(228, 94, 181);
+    }
+
+      .google-content3{
+     background-color: rgb(109, 224, 149);
+    }
+
+    .google-img{
+      margin-top:-25px;
+    }
+
+    .star{
+      padding-left: 49px;
+    }
+
+    .tab-button {
+      background-color: #FFEBD8; 
+      color: #000;
+      font-weight: 500;
+      border: none;
+    }
+
+    .tab-button.active {
+      background-color: #DE7B4D; 
+      color: white;
+    }
+
+    
+    
+
+
+
+ @media (max-width:768px){
+  .best-seller{
+    display: none;
+  }
+  /* .best-seller-main{
+    margin-top: 250px;
+  } */
+  .best-title{
+    color: black;
+  }
+
+  .Apart-content{
+    justify-content: center;
+  }
+
+  /* .promise-content{
+      justify-content: center;
+  } */
+ 
+ }
+ @media (max-width:864px){
+  .best-seller-content{
+    display:none;
+ }
+ }
+
+/* //////////////////////////////////////////////// */
+@media (max-width:575px){
+  .footer-last{
+    display:none;
+  }
+}
+
+/* ///////////////////////////// */
+@media (max-width:760px){
+  .background-img{
+    display: none;
+  }
+}
+
+/* ///////////////////// */
+@media (max-width:756px){
+  .size-content{
+    justify-content: center;
+  }
+  .size-content1{
+    width:50%;
+    justify-self: center;
+  }
+  .size-content2{
+padding-left: 15%;
+  }
+  .size-content3{
+    justify-self: center;
+  }
+}
+/* /////////////// */
+@media (max-width:768px){
+  .images-provide{
+    display: none;
+  }
+}
+@media (max-width:995px){
+  .images-provide{
+    display: none;
+  }
+}
+
+/* /////////// */
+@media (max-width:990px){
+  .images-best{
+    min-height:40%;
+    max-width: 30%;
+    justify-self: center;
+    
+  }
+
+}
+
